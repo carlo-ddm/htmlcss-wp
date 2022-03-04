@@ -52,8 +52,10 @@ a {
 }
 
 #logo {
-  display: block;
+  display: inline-block;
   width: 15%;
+  padding-right: 10px;
+  border-right: 1px solid lightgrey;
   margin-bottom: 30px;
 }
 
