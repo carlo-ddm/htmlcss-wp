@@ -16,7 +16,12 @@ a {
   cursor: pointer;
 }
 
-/* Genetal --> Main */
+.overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+/* General --> Main */
 .clearfix::after {
   content: "";
   display: table;
@@ -55,7 +60,7 @@ a {
   display: inline-block;
   width: 15%;
   padding-right: 10px;
-  border-right: 1px solid lightgrey;
+  border-right: 1px solid lightgray;
   margin-bottom: 30px;
 }
 
@@ -71,7 +76,7 @@ a {
   }
 
   nav ul li a{
-    color: #727272;
+    color: gray;
     font-size: 12px;
     text-transform: uppercase
   }
@@ -82,9 +87,22 @@ a {
 
   /* Jumbotron */
   .jumbotron {
-    background-color: #DACF67;
-    height: 500px;
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    height: 442px;
+    border-radius: 2%;
+    overflow: hidden;
     margin-bottom: 20px;
+  }
+
+  .jumbotron .overlay.text {
+    padding-top: 290px;
+    padding-left: 95px;
+  }
+
+  .overlay.text h3, p {
+    width: 60%;
+    color: white;
   }
 
 /* Main */
