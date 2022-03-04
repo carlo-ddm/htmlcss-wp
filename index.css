@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  width: 75%;
+  margin: auto;
+}
+
+/* Genetal --> Main */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  background-color: #9CC4E1;
+  width: 20%;
+  height: 700px;
+}
+
+.col.left {
+  float: left;
+  margin-right: 2%;
+}
+
+.col.right {
+  float: right;
+  margin-left: 2%;
+}
+
+.center {
+  background-color: #9CC4E1;
+  float: left;
+  width: 56%;
+  height: 700px;
+}
+
+/* Header */
+.container-top {
+  background-color: #DD5CE0;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+  /* Jumbotron */
+  .jumbotron {
+    background-color: #DACF67;
+    height: 500px;
+    margin-bottom: 20px;
+  }
+
+/* Main */
+main {
+  background-color: #0D6EFF;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+main .top {
+  background-color: #9CC4E1;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #7300FF;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Ricorda: clarfix non funzionava perchè avevo tolto l'altezza fissa solo al div contenitore, non al main */
+
+/* Ricorda suggerimento Simone: non impostare mai altezze fisse ai contenitori. Le altezze fisse devono essere impostate ai soli contenuti e devono essere impostate in px -- è insidioso in % -- */
+
+/* Impostare margini direttamente in body evitando il passaggio qui costruito [VEDI: header, main, footer]
+{Fixed} */
