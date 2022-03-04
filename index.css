@@ -16,7 +16,7 @@ a {
   cursor: pointer;
 }
 
-.overlay{
+.overlay {
   background-color: rgba(0, 0, 0, 0.2);
   height: 100%;
 }
@@ -64,58 +64,64 @@ a {
   margin-bottom: 30px;
 }
 
-  /* Nav --> Menu */
+/* Nav --> Menu */
 
-  nav ul{
-    list-style: none;
-  }
+nav ul{
+  list-style: none;
+}
 
-  li {
-    display: inline-block;
-    margin-right: 10px;
-  }
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
 
-  nav ul li a{
-    color: gray;
-    font-size: 12px;
-    text-transform: uppercase
-  }
-  
-  nav ul li a:hover{
-    color: black;
-  }
+nav ul li a{
+  color: gray;
+  font-size: 12px;
+  text-transform: uppercase
+}
 
-  /* Jumbotron */
-  .jumbotron {
-    background-image: url(img/banner.jpg);
-    background-position: center;
-    height: 442px;
-    border-radius: 2%;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
+nav ul li a:hover{
+  color: black;
+}
 
-  .jumbotron .overlay.text {
-    padding-top: 290px;
-    padding-left: 95px;
-  }
+/* Jumbotron */
+.jumbotron {
+  background-image: url(img/banner.jpg);
+  background-position: center;
+  height: 442px;
+  border-radius: 2%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
 
-  .overlay.text h3, p {
-    width: 60%;
-    color: white;
-  }
+.jumbotron .overlay.text {
+  padding-top: 290px;
+  padding-left: 95px;
+}
+
+.overlay.text h3, p {
+  width: 60%;
+  color: white;
+}
 
 /* Main */
 main {
-  background-color: #0D6EFF;
   margin-bottom: 10px;
   padding-bottom: 20px;
 }
 
 main .top {
-  background-color: #9CC4E1;
-  height: 100px;
   margin-bottom: 20px;
+}
+
+main .top h1 {
+  margin-bottom: 2px;
+} 
+
+.top span {
+  font-size: 12px;
+  color: gray;
 }
 
 /* Footer */
