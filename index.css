@@ -135,7 +135,8 @@ main .top {
 }
 
 main .top h1 {
-  margin-bottom: 2px;
+  font-size: 25px;
+  margin-bottom: 1px;
 } 
 
 .top span {
