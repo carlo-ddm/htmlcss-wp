@@ -29,7 +29,6 @@ a {
 }
 
 .col {
-  background-color: #9CC4E1;
   width: 20%;
   height: 700px;
 }
@@ -45,10 +44,30 @@ a {
 }
 
 .center {
-  background-color: #9CC4E1;
   float: left;
   width: 56%;
   height: 700px;
+}
+
+.box {
+  height: 160px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+.box.img1 {
+  background-image: url(img/img-1.jpg);
+}
+
+.box.img2 {
+  background-image: url(img/banner-2.jpg);
+}
+
+.box.img3 {
+  background-image: url(img/img-3.jpg);
 }
 
 /* Header */
